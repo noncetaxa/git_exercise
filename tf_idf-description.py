@@ -47,7 +47,7 @@ if __name__ == "__main__":
 		doc = " ".join(ldoc) # 문헌별로 단어들을 하나의 문자열로 이어줌. 같은 단어가 여러 번 나올 수 있음.
 		corpus.append(doc) # vectorizer가 읽을 수 있는 형태로 문자열들의 목록으로 다시 이어줌.
 	print("Mean of numbers of words per document: "+str(mean(parsed))) # 평균 문헌 당 어절 수
-	vectorizer = CountVectorizer(stop_words='english')	# 영어 불용어 처리
+	vectorizer = CountVectorizer(stop_words='english') # 영어 불용어 처리
 	bag_of_words = vectorizer.fit_transform(corpus)
 	dtmatrix = bag_of_words.toarray() # 빈도수로 문헌 용어 행렬 만들기
 	
