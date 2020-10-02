@@ -1,0 +1,9 @@
+diff a/branchtest.md b/branchtest.md	(rejected hunks)
+@@ -15,6 +15,7 @@
+ 
+ - 초본으로 돌아가서 갈래치기했소.
+ 
++<<<<<<< 
+ ## 병합하기
+ 
+ - fast-forward: head branch(current) 가 master에서 바로 나온 것일 때 그대로 병합하는 것

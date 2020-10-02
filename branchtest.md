@@ -19,6 +19,3 @@
 
 - fast-forward: head branch(current) 가 master에서 바로 나온 것일 때 그대로 병합하는 것
 - master에서 가지치기를 여러 번 하고 head를 옮겨다니면서 각기 수정했을 때 병합하면 충돌이 일어날 가능성이 크다
-## 브랜치 2에서 별도로 추가한 내용
-
-- master에서는 merge(병합)에 관한 내용을 다루기로 한다. 
