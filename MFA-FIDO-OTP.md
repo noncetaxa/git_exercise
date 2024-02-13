@@ -161,7 +161,9 @@
 
 
 
-### 2. 이벤트 동기화: Hash Chain/해시 기반 OTP(HOTP): 해시 알고리즘 비대칭키 암호화 방식으로, 복호화가 어려운 특징을 활용
+### 2. 이벤트 동기화: Hash Chain/해시 기반 OTP(HOTP)
+
+해시 알고리즘 비대칭키 암호화 방식으로, 복호화가 어려운 특징을 활용
 
 참고: [One Time Password(OTP)의 개념 및 동작방식. LDAP을 활용한 OTP 인증. - DSMENTORING](https://ldap.or.kr/1373-2/)
 
