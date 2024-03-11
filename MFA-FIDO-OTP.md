@@ -131,11 +131,9 @@
 # OTP
 
 - 개요: [OTP(일회용 비밀번호): 정의, 모범 사례 및 예 (entrust.com)](https://www.entrust.com/ko/resources/faq/what-is-a-one-time-password)
-- 특징: 암호가 일정한 시간마다 바뀜
+- 특징: 암호가 일정한 시간마다 바뀜 -> 지식 기반이 될 수 없음
 
-
-
-## OTP의 형태
+## OTP의 형태: 기본적으로 소유 기반 인증임
 
 - 하드 토큰: 물리기기. 카드형, USB형([Yubikey](https://www.yubico.com/products/)) 등 
     - 분실 도난 훼손 가능성 있음
